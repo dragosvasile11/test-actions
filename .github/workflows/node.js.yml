@@ -71,7 +71,7 @@ jobs:
     needs: [push_to_DockerHub]
     steps:
       - name: checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       # more info on deploy to Heroku:
       # https://github.com/marketplace/actions/deploy-to-heroku
       - name: deploy to Heroku
