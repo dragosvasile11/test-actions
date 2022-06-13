@@ -3,7 +3,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Hello, world!!! 
+          Hello, world!
         </p>
       </header>
     </div>
